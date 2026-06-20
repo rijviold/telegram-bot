@@ -70,7 +70,7 @@ ADMIN_IDS = {
 }
 
 # ── Database ──────────────────────────────────────────────────────────────────
-DB_PATH = Path(__file__).parent / "bot_data.db"
+DB_PATH = Path(os.environ.get("DATA_DIR", str(Path(__file__).parent))) / "bot_data.db"
 REF_BONUS = 5.0          # default ৳ per milestone (kept for reference)
 # Each milestone: (otp_threshold, bonus_amount, db_column)
 REF_MILESTONES = [

@@ -1,0 +1,48 @@
+{
+  "fb_new": {
+    "label": "FB- PC-CLONE",
+    "ranges": []
+  },
+  "ig": {
+    "label": "Instagram",
+    "ranges": [
+      {
+        "label": "Ivory coast",
+        "range": "2250789XXX"
+      },
+      {
+        "label": "Guinea",
+        "range": "22465XXX"
+      }
+    ]
+  },
+  "wa": {
+    "label": "FB- New ID",
+    "ranges": [
+      {
+        "label": "Guinea",
+        "range": "224654XXX"
+      },
+      {
+        "label": "Sierra Leone",
+        "range": "23276XXX"
+      },
+      {
+        "label": "Central Africa",
+        "range": "23672XXX"
+      },
+      {
+        "label": "Bolivia",
+        "range": "5917424XXX"
+      },
+      {
+        "label": "Mali",
+        "range": "223655XXX"
+      }
+    ]
+  },
+  "whatsapp": {
+    "label": "WhatsApp",
+    "ranges": []
+  }
+}

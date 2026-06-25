@@ -575,7 +575,7 @@ async def show_services(update: Update, context: ContextTypes.DEFAULT_TYPE):
         for key, s in services.items()
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
-    header = "<b>SELECT SERVICE</b>"
+    header = "<b>SELECT SERVICE 🌐</b>"
     if update.message:
         await update.message.reply_text(header, parse_mode="HTML", reply_markup=reply_markup)
     else:

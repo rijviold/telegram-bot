@@ -575,12 +575,7 @@ async def show_services(update: Update, context: ContextTypes.DEFAULT_TYPE):
         for key, s in services.items()
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
-    header = (
-        "━━━\n"
-        "   <b>🎯 AVAILABLE SERVICES</b>\n"
-        "━━━\n\n"
-        "<i>আপনার প্রয়োজনীয় সার্ভিস বেছে নিন:</i>"
-    )
+    header = "<b>SELECT SERVICE</b>"
     if update.message:
         await update.message.reply_text(header, parse_mode="HTML", reply_markup=reply_markup)
     else:
